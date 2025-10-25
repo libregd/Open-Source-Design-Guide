@@ -1,0 +1,15 @@
+/* 默认显示浅色 logo */
+.logo-dark {
+  display: none;
+}
+.logo-light {
+  display: inline;
+}
+
+/* 当主题为 dark 时，切换 logo */
+:root[data-theme='dark'] .logo-dark {
+  display: inline;
+}
+:root[data-theme='dark'] .logo-light {
+  display: none;
+}
