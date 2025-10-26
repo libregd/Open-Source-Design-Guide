@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /public/images/
+Sitemap: https://logothon.pages.dev/
